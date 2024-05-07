@@ -23,7 +23,7 @@ function App() {
   });
   return (
     <div className="container">
-      <h1>Simple Chat</h1>
+      <h1>Socket Chat</h1>
       <div className="chat-box">
         {chat.map((msg, index) => (
           <p key={index}>
